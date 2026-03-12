@@ -64,6 +64,20 @@ curl -X POST http://localhost:8080/webhook/telegram \
 └── docker-compose.yml
 ```
 
+
+## Architecture
+
+See: [`docs/architecture.md`](docs/architecture.md)
+
+## Demo Preview
+
+![Demo Preview](assets/demo-preview.gif)
+
+## Portfolio Assets
+
+- Upwork snippet: [`docs/upwork-portfolio-snippet.md`](docs/upwork-portfolio-snippet.md)
+- Demo script: [`docs/demo-script.md`](docs/demo-script.md)
+
 ## Notes for clients
 
 This is a portfolio MVP to demonstrate business automation flow.
