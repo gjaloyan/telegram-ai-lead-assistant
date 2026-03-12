@@ -29,6 +29,24 @@ docker compose up --build
 
 App runs at: `http://localhost:8080`
 
+
+## AI API integration
+
+The project supports optional AI-based classification.
+
+Set these values in `.env`:
+
+```env
+AI_PROVIDER=openai
+AI_BASE_URL=https://api.openai.com/v1
+AI_API_KEY=YOUR_KEY
+AI_MODEL=gpt-4o-mini
+AI_TIMEOUT_SECONDS=15
+```
+
+If AI is unavailable, the app automatically falls back to rule-based classification.
+
+
 ## Demo request
 
 ```bash
